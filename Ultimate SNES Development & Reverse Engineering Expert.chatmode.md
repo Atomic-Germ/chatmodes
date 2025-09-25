@@ -1,25 +1,5 @@
 ---
-name: "Advanced SNES Coding and Design Expert"
 description: "Specialized mode for Super Nintendo Entertainment System development with deep knowledge of 65816 assembly, SPC700 audio, and hardware-specific optimization techniques"
-version: "1.2.0"
-author: "GitHub Copilot Retro Development Team"
-capabilities:
-  - 65816_assembly_expertise
-  - spc700_audio_programming
-  - snes_hardware_optimization
-  - mode7_implementation
-  - dma_hdma_optimization
-  - vram_management
-  - oam_sprite_handling
-  - sram_battery_backup
-  - rom_banking_strategies
-  - superfx_coprocessor
-  - sa1_enhancement_chip
-  - debug_emulator_integration
-  - rom_header_management
-  - cross_compilation
-  - palette_management
-  - tile_map_generation
 tools:
   # Core Development Tools
   - 'edit'
@@ -34,7 +14,7 @@ tools:
   - 'fetch'
   - 'extensions'
   - 'todos'
-  - 'runTests'
+   # 'runTests' removed: not a supported tool in this environment
   - 'Remember MCP (Mode Manager)'
   - 'sequentialthinking'
   
@@ -58,39 +38,46 @@ tools:
   - 'get_pull_request_review_comments'
   - 'get_pull_request_reviews'
   - 'get_pull_request_status'
-  - 'get_release_by_tag'
-  - 'get_tag'
-  - 'get_workflow_run'
-  - 'get_workflow_run_logs'
-  - 'get_workflow_run_usage'
-  - 'list_branches'
-  - 'list_code_scanning_alerts'
-  - 'list_commits'
-  - 'list_discussion_categories'
-  - 'list_discussions'
-  - 'list_gists'
-  - 'list_issue_types'
-  - 'list_issues'
-  - 'list_pull_requests'
-  - 'list_releases'
-  - 'list_repository_security_advisories'
-  - 'list_secret_scanning_alerts'
-  - 'list_tags'
-  - 'list_workflow_jobs'
-  - 'list_workflow_run_artifacts'
-  - 'list_workflow_runs'
-  - 'list_workflows'
-  - 'merge_pull_request'
-  - 'push_files'
-  - 'rerun_failed_jobs'
-  - 'rerun_workflow_run'
-  - 'run_workflow'
-  - 'search_code'
-  - 'search_issues'
-  - 'search_orgs'
-  - 'search_pull_requests'
-  - 'search_repositories'
-  - 'search_users'
+   - 'get_release_by_tag'
+   - 'get_tag'
+   - 'get_workflow_run'
+   - 'get_workflow_run_logs'
+   - 'get_workflow_run_usage'
+   - 'list_branches'
+   - 'list_code_scanning_alerts'
+   - 'list_commits'
+   - 'list_discussion_categories'
+   - 'list_discussions'
+   - 'list_gists'
+   - 'list_issue_types'
+   - 'list_issues'
+   - 'list_pull_requests'
+   - 'list_releases'
+   - 'list_repository_security_advisories'
+   - 'list_secret_scanning_alerts'
+   - 'list_tags'
+   - 'list_workflow_jobs'
+   - 'list_workflow_run_artifacts'
+   - 'list_workflow_runs'
+   - 'list_workflows'
+   - 'merge_pull_request'
+   - 'push_files'
+   - 'rerun_failed_jobs'
+   - 'rerun_workflow_run'
+   - 'run_workflow'
+   - 'search_code'
+   - 'search_issues'
+   - 'search_orgs'
+   - 'search_pull_requests'
+   - 'search_repositories'
+   - 'search_users'
+---
+
+## Metadata
+
+- Version: 1.2.0
+- Author: GitHub Copilot Retro Development Team
+- Capabilities: 65816_assembly_expertise, spc700_audio_programming, snes_hardware_optimization, mode7_implementation, dma_hdma_optimization, vram_management, oam_sprite_handling, sram_battery_backup, rom_banking_strategies, superfx_coprocessor, sa1_enhancement_chip, debug_emulator_integration, rom_header_management, cross_compilation, palette_management, tile_map_generation
   - 'update_pull_request'
   - 'update_pull_request_branch'
   

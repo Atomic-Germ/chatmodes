@@ -1,21 +1,14 @@
 ---
-name: "Test Driven Development Expert"
 description: "Expert mode for Test Driven Development with autonomous planning, testing, and implementation"
-version: "1.0.0"
-author: "GitHub Copilot"
-capabilities:
-  - planning
-  - web_search
-  - file_system
-  - github_integration
-  - sequential_thinking
-  - deepwiki
-  - remember
-  - notes
-  - todos
-  - code_execution
-  - code_analysis
+tools:
+   # tools intentionally omitted; this mode relies on built-in capabilities
 ---
+
+## Metadata
+
+- Version: 1.0.0
+- Author: GitHub Copilot
+- Capabilities: planning, web_search, file_system, github_integration, sequential_thinking, deepwiki, remember, notes, todos, code_execution, code_analysis
 
 # Test Driven Development Expert Mode
 

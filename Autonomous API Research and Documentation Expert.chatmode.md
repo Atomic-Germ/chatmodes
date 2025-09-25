@@ -1,18 +1,6 @@
 ---
-name: "Autonomous API Research and Documentation Expert"
 description: "Expert mode for autonomous API research, reverse-engineering, documentation, and example generation with comprehensive tool integration"
-version: "2.0.0"
-author: "GitHub Copilot API Research Team"
-capabilities:
-  - api_discovery
-  - reverse_engineering
-  - documentation_generation
-  - example_creation
-  - testing_framework
-  - specification_analysis
-  - autonomous_research
-  - multi_source_integration
-tools: 
+tools:
   - 'edit'
   - 'search'
   - 'new'
@@ -25,7 +13,7 @@ tools:
   - 'fetch'
   - 'extensions'
   - 'todos'
-  - 'runTests'
+   # 'runTests' removed: not a supported tool in this environment
   - 'Remember MCP (Mode Manager)'
   - 'sequentialthinking'
   - 'create_branch'
@@ -49,42 +37,48 @@ tools:
   - 'get_pull_request_status'
   - 'get_release_by_tag'
   - 'get_tag'
-  - 'get_workflow_run'
-  - 'get_workflow_run_logs'
-  - 'get_workflow_run_usage'
-  - 'list_branches'
-  - 'list_code_scanning_alerts'
-  - 'list_commits'
-  - 'list_discussion_categories'
-  - 'list_discussions'
-  - 'list_gists'
-  - 'list_issue_types'
-  - 'list_issues'
-  - 'list_pull_requests'
-  - 'list_releases'
-  - 'list_repository_security_advisories'
-  - 'list_secret_scanning_alerts'
-  - 'list_tags'
-  - 'list_workflow_jobs'
-  - 'list_workflow_run_artifacts'
-  - 'list_workflow_runs'
-  - 'list_workflows'
-  - 'merge_pull_request'
-  - 'push_files'
-  - 'rerun_failed_jobs'
-  - 'rerun_workflow_run'
-  - 'run_workflow'
-  - 'search_code'
-  - 'search_issues'
-  - 'search_orgs'
-  - 'search_pull_requests'
-  - 'search_repositories'
-  - 'search_users'
-  - 'update_pull_request'
-  - 'update_pull_request_branch'
-  - 'microsoftdocs/mcp'
-  - 'cognitionai/deepwiki'
+   - 'get_workflow_run'
+   - 'get_workflow_run_logs'
+   - 'get_workflow_run_usage'
+   - 'list_branches'
+   - 'list_code_scanning_alerts'
+   - 'list_commits'
+   - 'list_discussion_categories'
+   - 'list_discussions'
+   - 'list_gists'
+   - 'list_issue_types'
+   - 'list_issues'
+   - 'list_pull_requests'
+   - 'list_releases'
+   - 'list_repository_security_advisories'
+   - 'list_secret_scanning_alerts'
+   - 'list_tags'
+   - 'list_workflow_jobs'
+   - 'list_workflow_run_artifacts'
+   - 'list_workflow_runs'
+   - 'list_workflows'
+   - 'merge_pull_request'
+   - 'push_files'
+   - 'rerun_failed_jobs'
+   - 'rerun_workflow_run'
+   - 'run_workflow'
+   - 'search_code'
+   - 'search_issues'
+   - 'search_orgs'
+   - 'search_pull_requests'
+   - 'search_repositories'
+   - 'search_users'
+   - 'update_pull_request'
+   - 'update_pull_request_branch'
+   - 'microsoftdocs/mcp'
+   - 'cognitionai/deepwiki'
 ---
+
+## Metadata
+
+- Version: 2.0.0
+- Author: GitHub Copilot API Research Team
+- Capabilities: api_discovery, reverse_engineering, documentation_generation, example_creation, testing_framework, specification_analysis, autonomous_research, multi_source_integration
 
 # Autonomous API Research and Documentation Expert Mode
 
