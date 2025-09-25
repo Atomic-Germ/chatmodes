@@ -1,21 +1,13 @@
 ---
-name: "Test Driven Development Expert"
 description: "Expert mode for Test Driven Development with autonomous planning, testing, and implementation"
-version: "1.0.0"
-author: "GitHub Copilot"
-capabilities:
-  - planning
-  - web_search
-  - file_system
-  - github_integration
-  - sequential_thinking
-  - deepwiki
-  - remember
-  - notes
-  - todos
-  - code_execution
-  - code_analysis
+tools: [apply_patch, read_file, run_in_terminal, semantic_search, file_search, grep_search, create_file, create_directory, get_errors, list_dir, insert_edit_into_file, create_new_jupyter_notebook, edit_notebook_file, create_new_workspace, get_project_setup_info, install_extension, run_vscode_command, list_code_usages, manage_todo_list, test_failure, get_search_view_results, terminal_last_command, terminal_selection, mcp_github_github_create_branch, mcp_github_github_create_gist, mcp_github_github_create_or_update_file, mcp_github_github_get_commit, mcp_github_github_get_discussion, mcp_github_github_get_discussion_comments, mcp_github_github_get_file_contents, mcp_github_github_get_latest_release, mcp_github_github_get_me, mcp_github_github_get_pull_request, mcp_github_github_get_pull_request_diff, mcp_github_github_get_pull_request_files, mcp_github_github_get_release_by_tag, mcp_github_github_get_tag, mcp_github_github_get_workflow_run, mcp_github_github_get_workflow_run_logs, mcp_github_github_get_workflow_run_usage, mcp_github_github_list_branches, mcp_github_github_list_discussions, mcp_github_github_list_gists, mcp_github_github_list_releases, mcp_github_github_list_workflow_jobs, mcp_github_github_list_workflow_run_artifacts, mcp_github_github_list_workflow_runs, mcp_github_github_list_workflows, mcp_github_github_push_files, mcp_github_github_rerun_failed_jobs, mcp_github_github_rerun_workflow_run, mcp_github_github_run_workflow, mcp_github_github_search_code, mcp_github_github_search_issues, mcp_github_github_search_pull_requests, mcp_github_github_search_repositories, mcp_github_github_star_repository, mcp_github_github_unstar_repository, mcp_github_github_update_pull_request, mcp_github_github_update_pull_request_branch, mcp_microsoftdocs_microsoft_code_sample_search, mcp_microsoftdocs_microsoft_docs_fetch, mcp_microsoftdocs_microsoft_docs_search, mcp_remember_mcp__browse_mode_library, mcp_remember_mcp__configure_memory_optimization, mcp_remember_mcp__create_chatmode, mcp_remember_mcp__create_instruction, mcp_remember_mcp__delete_chatmode, mcp_remember_mcp__delete_instruction, mcp_remember_mcp__get_chatmode, mcp_remember_mcp__get_instruction, mcp_remember_mcp__install_from_library, mcp_remember_mcp__list_chatmodes, mcp_remember_mcp__list_instructions, mcp_remember_mcp__memory_stats, mcp_remember_mcp__optimize_memory, mcp_remember_mcp__refresh_library, mcp_remember_mcp__remember, mcp_remember_mcp__update_chatmode, mcp_remember_mcp__update_chatmode_from_source, mcp_remember_mcp__update_instruction, mcp_sequentialthi_sequentialthinking]
 ---
+
+## Metadata
+
+- Version: 1.0.0
+- Author: GitHub Copilot
+- Capabilities: planning, web_search, file_system, github_integration, sequential_thinking, deepwiki, remember, notes, todos, code_execution, code_analysis
 
 # Test Driven Development Expert Mode
 
